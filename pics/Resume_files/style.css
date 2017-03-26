@@ -1,0 +1,80 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  /*color: teal;*/
+}
+*{
+  box-sizing: border-box;
+}
+.main::after{
+  content:"";
+  clear: both;
+  display: block;
+}
+[class*="col-"]{
+  float: left;
+  margin: 8px;
+  padding: 15px;
+  /*border: 1px dashed blue;*/
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 8px 16px rgba(0,0,0,0.24);
+}
+/*for Phones*/
+/*@media only screen and (min-width:768px) {
+  [class*="col-"]{
+    width: 100%;
+    border: 1px dashed blue;
+  }
+}*/
+/*for Desktop*/
+/*@media only screen and (max-width:768px) {*/
+  .col-1{width: 8.33%;}
+  .col-2{width: 16.66%;}
+  .col-3{width: 23.20%;}
+  .col-4{width: 33.33%;}
+  .col-5{width: 41.66%;}
+  .col-6{width: 50%;}
+  .col-7{width: 58.33%;}
+  .col-8{width: 66.66%;}
+  .col-9{width: 74.33%;}
+  .col-10{width: 83.33%;}
+  .col-11{width: 91.66%;}
+  .col-12{width: 100%;}
+/*}*/
+li{
+  list-style-type: none;
+}
+
+/*left column*/
+.profile{
+
+}
+img{
+  background-size: cover;
+}
+h1{ color: black;}
+.titles{
+  color: #666666;
+}
+strong{
+
+}
+img{
+  width: 100%;
+  height: auto;
+}
+/*right top column*/
+.experience{
+float: right;
+}
+.teal{
+  color: #6600cc;
+}
+/*right bottom column*/
+.education{
+float: right;
+}
+/*footer*/
+footer{
+  text-align: center;
+  font-size: 11px;
+}
